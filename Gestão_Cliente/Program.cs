@@ -68,7 +68,7 @@ namespace Projeto_Gestão
             Cliente nClient = new Cliente(nome,endereço,email,telefone);
             c.Add(nClient);
             Console.WriteLine("\nCliente adicionado com sucesso!!");
-            Console.Write("\nPessione ENTER para voltar para o menu.");
+            Console.Write("\nPessione ENTER para voltar ao menu.");
             Console.ReadLine();
         }
 
@@ -87,7 +87,7 @@ namespace Projeto_Gestão
             else 
             {
                 Console.WriteLine("\nNão há clientes cadastrados ainda!");
-                Console.Write("\nPessione ENTER para voltar para o menu.");
+                Console.Write("\nPessione ENTER para voltar ao menu.");
                 Console.ReadLine();
             }
         }
@@ -105,13 +105,13 @@ namespace Projeto_Gestão
                     {
                         c.Remove(nClient);
                         Console.WriteLine("\nCliente removido com sucesso!!");
-                        Console.Write("\nPessione ENTER para voltar para o menu.");
+                        Console.Write("\nPessione ENTER para voltar ao menu.");
                         Console.ReadLine();
                     }
                     else
                     {
                         Console.WriteLine("\nCliente não encontrado!!");
-                        Console.Write("\nPessione ENTER para voltar para o menu.");
+                        Console.Write("\nPessione ENTER para voltar ao menu.");
                         Console.ReadLine();
                     }
                 }
@@ -119,7 +119,7 @@ namespace Projeto_Gestão
             else 
             {
                 Console.WriteLine("\nNão há clientes cadastrados ainda!");
-                Console.Write("\nPessione ENTER para voltar para o menu.");
+                Console.Write("\nPessione ENTER para voltar ao menu.");
                 Console.ReadLine();
             }
         }
@@ -143,14 +143,14 @@ namespace Projeto_Gestão
                         nClient.TelefonePessoa = Console.ReadLine();
 
                         Console.WriteLine("\nCliente editado com sucesso!!");
-                        Console.Write("\nPessione ENTER para voltar para o menu.");
+                        Console.Write("\nPessione ENTER para voltar ao menu.");
                         Console.ReadLine();
                     }
 
                     else
                     {
                         Console.WriteLine("\nCliente não encontrado!!");
-                        Console.Write("\nPessione ENTER para voltar para o menu.");
+                        Console.Write("\nPessione ENTER para voltar ao menu.");
                         Console.ReadLine();
                     }
                 }
@@ -158,7 +158,7 @@ namespace Projeto_Gestão
             else 
             {
                 Console.WriteLine("\nNão há clientes cadastrados ainda!");
-                Console.Write("\nPessione ENTER para voltar para o menu.");
+                Console.Write("\nPessione ENTER para voltar ao menu.");
                 Console.ReadLine();
             }
         }
